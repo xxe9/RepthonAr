@@ -8,21 +8,21 @@ from .core.session import jepiq
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "1.0.0"
-__license__ = "كـتابة وتـعديل فريـق جيبثون"
-__author__ = "جيبثون <https://T.ME/Jepthon>"
-__copyright__ = "JEPTHON TEAM (C) 2020 - 2021  " + __author__
+__license__ = "كـتابة وتـعديل فريـق ريبـــثون"
+__author__ = "ريبـــثون <https://T.ME/Repthon>"
+__copyright__ = "Repthon TEAM (C) 2020 - 2021  " + __author__
 
 jepiq.version = __version__
 jepiq.tgbot.version = __version__
-LOGS = logging.getLogger("jepthon")
+LOGS = logging.getLogger("𝐑𝐄𝐏𝐓𝐇𝐎𝐍")
 bot = jepiq
 
 StartTime = time.time()
 JEPVERSION = "3.1.3"
 
 
-if Config.UPSTREAM_REPO == "jepthoniq":
-    UPSTREAM_REPO_URL = "https://github.com/jepthoniq/jepthon"
+if Config.UPSTREAM_REPO == "Rep":
+    UPSTREAM_REPO_URL = "https://github.com/rogerpq/RepthonAr"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
