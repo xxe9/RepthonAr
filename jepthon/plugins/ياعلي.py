@@ -9,7 +9,7 @@ from telethon.tl.functions.messages import ExportChatInviteRequest
 from ..core.managers import edit_delete, edit_or_reply
 #ياعلي
 #اخ اخ اخ اخ اخ اخ اخممممممط ياطويل العمر اخمطط 😂
-#Reda
+#Roger
 @jepiq.ar_cmd(pattern="اشتراك")
 async def reda(event):
     ty = event.text
