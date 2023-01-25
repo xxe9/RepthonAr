@@ -19,14 +19,14 @@ async def reda(event):
     list = "**قائمة المكاتب المثبته**\n"
     for i in installed_packages_list:
         list += f"{i}\n"
-    list += "**سورس الجوكر**"
+    list += "**سورس ريبـــثون**"
     await edit_or_reply(event, list)
 
 @jepiq.ar_cmd(
     pattern="الملفات$",
     command=("الملفات", plugin_category),
     info={
-        "header": "To list all plugins in jepthon.",
+        "header": "To list all plugins in Repthon.",
         "usage": "{tr}plugins",
     },
 )
@@ -34,7 +34,7 @@ async def _(event):
     "To list all plugins in jepthon"
     cmd = "ls jepthon/plugins"
     o = (await _catutils.runcmd(cmd))[0]
-    OUTPUT = f"**[الجوكر](tg://need_update_for_some_feature/) الـمـلفـات:**\n{o}"
+    OUTPUT = f"**[ريبـــثون](tg://need_update_for_some_feature/) الـمـلفـات:**\n{o}"
     await edit_or_reply(event, OUTPUT)
 
 
@@ -52,7 +52,7 @@ async def _(event):
     cmd = "env"
     o = (await _catutils.runcmd(cmd))[0]
     OUTPUT = (
-        f"**[الجوكر](tg://need_update_for_some_feature/) قـائمـة الـفـارات:**\n\n\n{o}\n\n**انتبه هنالك معلومات حساسة لا تُعطِها لشخص غير موثوق**"
+        f"**[ريبـــثون](tg://need_update_for_some_feature/) قـائمـة الـفـارات:**\n\n\n{o}\n\n**انتبه هنالك معلومات حساسة لا تُعطِها لشخص غير موثوق**"
     )
     await edit_or_reply(event, "**تم ارسال المعلومات في الرسائل المحفوضة \nانتبه من الاشخاص الي يطلبون منك كتابة هذا الامر يريد ان يخترقك!**")
     await jepiq.send_message("me", OUTPUT)
