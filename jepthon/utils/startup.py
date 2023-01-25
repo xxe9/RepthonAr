@@ -26,7 +26,7 @@ from ..sql_helper.global_collection import (
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
-LOGS = logging.getLogger("jepthon")
+LOGS = logging.getLogger("ريبـــثون")
 
 cmdhr = Config.COMMAND_HAND_LER
 bot = jepiq
@@ -182,7 +182,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 #by @Repthon بس اشوفك خامطه للكود اهينك وافضحك 
 
-jepthon = {"@Repthon", "@Repthon_support", "@Repthon_vars", "@Repthonn", "@Test_Repthon", "@Devs_Repthon", "@Repthon_help", "@Repthon_cklasish", "@ZQ_LO", "@Repthon_up"}
+jepthon = {"@Repthon", "@Repthon_support", "@Repthon_vars", "@Repthonn", "@Test_Repthon", "@Devs_Repthon", "@Repthon_help", "@Repthon_cklaish", "@ZQ_LO", "@Repthon_up"}
 async def saves():
    for lMl10l in jepthon:
         try:
