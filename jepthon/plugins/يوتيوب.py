@@ -1,6 +1,6 @@
-#@lMl10l   - @JepThon
-# Copyright (C) 2021 JepThon TEAM
-# FILES WRITTEN BY  @lMl10l
+# @ZQ_LO   -   @Repthon
+# Copyright (C) 2021 Repthon TEAM
+# FILES WRITTEN BY  @E_7_V
 import asyncio
 import io
 import os
@@ -372,7 +372,7 @@ async def kakashi(event):
         end = datetime.now()
         ms = (end - start).seconds
         await cat.edit(
-            f"꙳ ¦ تم تنزيل بواسطة  : @JepThon ",
+            f"꙳ ¦ تم تنزيل بواسطة  : @Repthon ",
             parse_mode="html",
         )
     await event.client.delete_messages(
@@ -400,7 +400,7 @@ async def _(event):
             msg = await conv.send_message(r_link)
             details = await conv.get_response()
             video = await conv.get_response()
-            """ قناة الجوكر  @Jepthon """
+            """ قناة ريبـــثون  @Repthon """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
             await event.edit("▾∮ الغـي حـظر هـذا البـوت و حـاول مجـددا @ttsavebot")
