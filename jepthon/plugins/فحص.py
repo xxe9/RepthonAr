@@ -37,7 +37,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝙹𝙾𝙺𝙴𝚁 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/Jepthon)父**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝚁𝚎𝚙𝚝𝚑𝚘𝚗 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/Repthon)父**"
     RR7_IMG = gvarstatus("ALIVE_PIC") or Config.A_PIC
     jepiq_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = jepiq_caption.format(
@@ -46,7 +46,7 @@ async def amireallyalive(event):
         mention=mention,
         uptime=uptime,
         telever=version.__version__,
-        jepver=JEPVERSION,
+        repver=JEPVERSION,
         pyver=python_version(),
         dbhealth=check_sgnirts,
         ping=ms,
@@ -74,7 +74,7 @@ async def amireallyalive(event):
 temp = """{ALIVE_TEXT}
 **‎{EMOJI}‌‎𝙽𝙰𝙼𝙴 𖠄 {mention}** ٫
 **‌‎{EMOJI}‌‎𝙿𝚈𝚃𝙷𝙾𝙽 𖠄 {pyver}** ٫
-**‌‎{EMOJI}‌‎𝙹𝙾𝙺𝙴𝚁 𖠄 {telever}** ٫
+**‌‎{EMOJI𝚁𝚎𝚙𝚝𝚑𝚘𝚗 𖠄 {telever}** ٫
 **‌‎{EMOJI}‌‎𝚄𝙿𝚃𝙸𝙼𝙴 𖠄 {uptime}** ٫
 ‌‎**{EMOJI}‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 {ping}** ٫
-**𖠄 J𝗼𝗸𝗲𝗿 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
+**𖠄 𝗥𝗲𝗽𝘁𝗵𝗼𝗻 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
