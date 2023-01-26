@@ -40,7 +40,7 @@ rehu = [
     "عن الامام علي (عليه السلام) قال : لا غنى كالعقل، ولا فقر كالجهل، ولا ميراث كالأدب",
     "عن الامام علي (عليه السلام) قال : لسانك حصانك، إن صنته صانك",
 ]
-@jepiq.on(admin_cmd(pattern=f"الاوامر(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern=f"{Command}(?:\s|$)([\s\S]*)"))
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         ZQ_LO = random.choice(rehu)
