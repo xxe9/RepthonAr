@@ -9,8 +9,8 @@ from jepthon import jepiq
 from ..core import check_owner
 from ..Config import Config
 
-JEP_IC = "https://telegra.ph/file/762989c65df81fc2e96d7.jpg"
-ROE = "**♰ هـذه هي قائمة اوامـر سـورس الجوكر ♰**"
+JEP_IC = "https://graph.org/file/f2154f92fad74625a4841.jpg"
+ROE = "**♰ هـذه هي قائمة اوامـر سـورس ريبـــثون ♰**"
 
 if Config.TG_BOT_USERNAME is not None and tgbot is not None:
 
@@ -60,14 +60,14 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             elif JEP_IC:
                 result = builder.document(
                     JEP_IC,
-                    title="JEPTHON",
+                    title="Repthon",
                     text=ROE,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
-                    title="JEPTHON",
+                    title="Repthon",
                     text=ROE,
                     buttons=buttons,
                     link_preview=False,
