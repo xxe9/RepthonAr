@@ -20,7 +20,8 @@ plugin_category = "utils"
 
 
 
-#كـتابة المـلف وتعديل.    :   السيد حمد.   اخمط وسمي روحك مطور انت ابن حرام اخمط 😂
+#كـتابة المـلف وتعديل.    :   باقر/حمد.   اخمط وسمي روحك مطور فرخي 😂
+# اذا انت ابن حرام اخمط 😂
 # اي بعدك تريد تخمط ترا من تخمط مراح تنجح
 
 @jepiq.on(admin_cmd(pattern="رفع مرتي(?:\s|$)([\s\S]*)"))
@@ -40,7 +41,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -98,7 +98,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == :
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -106,8 +105,7 @@ async def permalink(mention):
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"**᯽︙ المستخدم** [{jepthon}](tg://user?id={user.id}) \n**᯽︙  تـم رفعـه مطي 🐴 بواسطة :** {my_mention} \n**᯽︙  تعال حبي استلم  انه **")
     
-#كـتابة المـلف وتعديل.    :   السيد 
-حمد.   اخمط وسمي روحك مطور فرخي 😂
+#كـتابة المـلف وتعديل.    :   باقر/حمد.   اخمط وسمي روحك مطور فرخي 😂
 # اذا انت ابن حرام اخمط 😂
 # اي بعدك تريد تخمط ترا من تخمط مراح تنجح
 
@@ -118,7 +116,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -135,7 +132,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -149,7 +145,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -165,7 +160,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -182,11 +176,11 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
-        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     if user.id == 5502537272:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور **")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(mention, f"᯽︙ ولك [{tag}](tg://user?id={user.id}) \n᯽︙  هيو لتندك بسيادك لو بهاي 👞👈")
@@ -197,7 +191,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -213,7 +206,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -242,18 +234,18 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
-        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     if user.id == 5502537272:
+        return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
+    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور **")
     tag = user.first_name.replace("\u2060", "") if user.first_name else user.username
     await edit_or_reply(mention, f"** ⣠⡶⠚⠛⠲⢄⡀\n⣼⠁      ⠀⠀⠀⠳⢤⣄\n⢿⠀⢧⡀⠀⠀⠀⠀⠀⢈⡇\n⠈⠳⣼⡙⠒⠶⠶⠖⠚⠉⠳⣄\n⠀⠀⠈⣇⠀⠀⠀⠀⠀⠀⠀⠈⠳⣄\n⠀⠀⠀⠘⣆       ⠀⠀⠀⠀⠀⠈⠓⢦⣀\n⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⢤\n⠀⠀⠀⠀⠀⠀⠙⢦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧\n⠀⠀⠀⠀⠀⠀⠀    ⠓⠦⠀⠀⠀⠀**\n**🚹 ¦ تعال مصه عزيزي ** [{tag}](tg://user?id={user.id})")
 
-@jepiq.on(admin_cmd(pattern="باقر(?:\s|$)([\s\S]*)"))
+@jepiq.on(admin_cmd(pattern="سيد(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
-    await edit_or_reply(mention, f"سماحة السيد باقر مطور سورس ريبثون @Repthon")
+    await edit_or_reply(mention, f"سماحة السيد حسين علي مطور سورس الجوكر @Jepthon")
 
 @jepiq.on(admin_cmd(pattern="رفع ايجة(?:\s|$)([\s\S]*)"))
 async def permalink(mention):
@@ -262,7 +254,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -276,7 +267,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -292,7 +282,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -306,7 +295,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -322,7 +310,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -336,7 +323,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -352,7 +338,6 @@ async def permalink(mention):
     if not user:
         return
     if user.id == 5502537272:
-    if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
     me = await mention.client.get_me()
@@ -366,7 +351,6 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 5502537272:
     if user.id == 1260465030:
         return await edit_or_reply(mention, f"**- لكك دي هذا المطور**")
     jepthon = user.first_name.replace("\u2060", "") if user.first_name else user.username
@@ -418,17 +402,15 @@ async def permalink(mention):
     my_first = me.first_name
     my_mention = f"[{me.first_name}](tg://user?id={me.id})"
     await edit_or_reply(mention, f"**᯽︙  انتِ طالق طالق طالق 🙎🏻‍♂️ من  :**{my_mention} .\n**᯽︙  لقد تم طلاقها بلثلاث وفسخ زواجكما الان الكل حر طليق ** ")
-ownerbaqer_id = 5502537272
-ownerhmd_id = 1260465030
+ownersayed_id = 705475246
 @jepiq.on(events.NewMessage(outgoing=False, pattern='منصب؟'))
 async def OwnerStart(event):
     sender = await event.get_sender()
-    if sender.id == ownerbaqer_id == onwerhmd_id :
+    if sender.id == ownersayed_id :
         order = await event.reply('يب منصب ✓')
-ownerbaqer1_id = 5502537272
-ownerhmd1_id = 1260465030
+ownersayed1_id = 5502537272
 @jepiq.on(events.NewMessage(outgoing=False, pattern='منو فخر العرب؟'))
 async def OwnerStart(event):
     sender = await event.get_sender()
-    if sender.id == ownerbaqer1_id == onwerhmd1_id :
+    if sender.id == ownersayed1_id :
         order = await event.reply('انته فخر العرب مح ❤️')
