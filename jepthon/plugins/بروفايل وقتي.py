@@ -1,7 +1,7 @@
 # اذا تخمط اذكر الحقوق رجـاءا  - 
-# كتابة وتعديل وترتيب  ~ @lMl10l
-# For ~ @Jepthon
-#تعديل Reda / رضا
+# كتابة وتعديل وترتيب  ~ @ZQ_LO 
+# For ~ @Repthon
+#تعديل Baqir / باقر
 #من تعرف تخمط اذكر حقوق لتسوي نفسك مطور
 import webcolors
 import asyncio
@@ -36,7 +36,7 @@ digitalpic_path = os.path.join(os.getcwd(), "jepthon", "digital_pic.png")
 digital_group_pic_path = os.path.join(os.getcwd(), "jepthon", "digital_group_pic.png")
 autophoto_path = os.path.join(os.getcwd(), "jepthon", "photo_pfp.png")
 auto_group_photo_path = os.path.join(os.getcwd(), "jepthon", "photo_pfp.png")
-normzltext = "1234567890"
+normzltext = "𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗𝟎"
 namew8t = Config.NAME_ET or "اسم وقتي"
 biow8t = Config.BIO_ET or "بايو وقتي"
 phow8t = Config.PHOTO_ET or "الصورة الوقتية"
@@ -60,6 +60,7 @@ async def digitalpicloop():
     i = 0
     while DIGITALPICSTART:
         if not os.path.exists(digitalpic_path):
+            digitalpfp = gvarstatus("DIGITAL_PIC") or "https://telegra.ph/file/63a826d5e5f0003e006a0.jpg"
             downloader = SmartDL(digitalpfp, digitalpic_path, progress_bar=False)
             downloader.start(blocking=False)
             while not downloader.isFinished():
@@ -89,7 +90,7 @@ async def digitalpicloop():
             return
         DIGITALPICSTART = gvarstatus("digitalpic") == "true"
 
-#Reda
+#Baqir
 #اننننسخخخخخ ههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه 
 
 
