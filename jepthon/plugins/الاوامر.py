@@ -6,7 +6,7 @@ from telethon import events
 import random, re
 from ..Config import Config
 
-from repthon.utils import admin_cmd
+from jepthon.utils import admin_cmd
 
 import asyncio
 from repthon import jepiq
