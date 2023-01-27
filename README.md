@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i0.wp.com/images.hive.blog/DQmZgGvu6YXrMNyDb4wVURLV14WNNSYs58R1kY64HNMSmCL/hive-didver1.gif"></p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 غير مبري الذمة الي ياخذله حرف واحد وينسبه لنفسه ويكول من كتابتي خصيمه يوم القيامه
 تريد تسرق اذكر مصدر الكود منين وكافي تضحك ع العالم ع ساس انته مسويه
-<p align="center"><img src="https://i0.wp.com/images.hive.blog/DQmZgGvu6YXrMNyDb4wVURLV14WNNSYs58R1kY64HNMSmCL/hive-didver1.gif"></p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
