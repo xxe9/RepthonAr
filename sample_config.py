@@ -16,6 +16,8 @@ class Config(object):
     # Get the values for following 2 from my.telegram.org
     APP_ID = int(os.environ.get("APP_ID", 6))
     API_HASH = os.environ.get("API_HASH") or None
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME") or None
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
@@ -29,7 +31,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/jepthoniq/jepthon.git"
+        "UPSTREAM_REPO", "https://github.com/rogerpq/RepthonAr.git"
     )
 
     # BASIC and MAIN CONFIG VARS
