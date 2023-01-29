@@ -150,7 +150,7 @@ async def hunterusername(event):
             ch = ch.updates[1].channel_id
             await event.edit(f"**- تم تفعيل الصيد بنجاح الان**")
         except Exception as e:
-            await sbb_b.send_message(
+            await jepiq.send_message(
                 event.chat_id, f"خطأ في انشاء القناة , الخطأ**-  : {str(e)}**"
             )
     isclaim.clear()
@@ -163,7 +163,7 @@ async def hunterusername(event):
         isav = check_user(username)
         if isav == True:
             try:
-                await sbb_b(
+                await jepiq(
                     functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username
                     )
