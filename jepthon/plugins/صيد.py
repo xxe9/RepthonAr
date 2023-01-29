@@ -144,7 +144,7 @@ async def hunterusername(event):
             ch = await jepiq(
                 functions.channels.CreateChannelRequest(
                     title="Repthon HUNTER - صيد ريبـــثون",
-                    about="This channel to hunt username by - @jmthon ",
+                    about="This channel to hunt username by - @Repthon ",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -203,7 +203,7 @@ async def hunterusername(event):
     await event.client.send_message(event.chat_id, "**- تم بنجاح الانتهاء من الصيد**")
 
 
-@sbb_b.ar_cmd(pattern="تثبيت (.*)")
+@jepiq.ar_cmd(pattern="تثبيت (.*)")
 async def _(event):
     msg = event.text.split()
     try:
@@ -214,7 +214,7 @@ async def _(event):
             ch = await jepiq(
                 functions.channels.CreateChannelRequest(
                     title="Repthon HUNTER - صيد ريبـــثون",
-                    about="This channel to hunt username by - @jmthon ",
+                    about="This channel to hunt username by - @Repthon ",
                 )
             )
             ch = ch.updates[1].channel_id
